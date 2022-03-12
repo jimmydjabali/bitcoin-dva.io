@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@bitcoin-dva/api": ["src/app/api"],
+      "@bitcoin-dva/api/*": ["src/app/api/*"],
+      "@bitcoin-dva/components": ["src/app/components"],
+      "@bitcoin-dva/components/*": ["src/app/components/*"],
+      "@bitcoin-dva/config": ["src/app/config"],
+      "@bitcoin-dva/config/*": ["src/app/config/*"],
+      "@bitcoin-dva/hooks": ["src/app/hooks"],
+      "@bitcoin-dva/hooks/*": ["src/app/hooks/*"],
+    }
+  }
+}
