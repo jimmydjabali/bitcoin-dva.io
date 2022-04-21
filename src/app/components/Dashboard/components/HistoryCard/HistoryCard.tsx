@@ -163,7 +163,7 @@ export const HistoryCard = ({ hideTitle, className }: HistoryCardProps) => {
         <S.HistoryListContainer>
           <S.HistoryLegend>
             <S.Legend
-              name="DCA"
+              name="DVA"
               color="#1e90ff"
               btc={history[history.length - 1]?.btcAmount || 0}
               walletValueInCurrency={Math.round(
@@ -172,7 +172,7 @@ export const HistoryCard = ({ hideTitle, className }: HistoryCardProps) => {
               currency={currencyUppercase}
             />
             <S.Legend
-              name="DVA"
+              name="DCA"
               color="#ced6e0"
               btc={
                 dcaCompareHistory[dcaCompareHistory.length - 1]?.btcAmount || 0
