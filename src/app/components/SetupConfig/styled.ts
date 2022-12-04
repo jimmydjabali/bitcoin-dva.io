@@ -39,7 +39,7 @@ export const CurrencyInput = styled(Input)``;
 export const InputExplaination = styled(Text).attrs(() => ({
   color: "white"
 }))`
-  max-width: fit-content;
+  max-width: 330px;
   text-align: start;
   font-size: 14px;
 `;
